@@ -67,6 +67,7 @@ hr,
 table,
 fieldset,
 figure,
+blockquote,
 pre {
   margin-top: var(--elementsSpace-marginTop);
   margin-bottom: var(--elementsSpace-marginBottom);
