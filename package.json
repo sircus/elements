@@ -20,7 +20,12 @@
     "url": "https://github.com/sircus/elements.git"
   },
   "scripts": {
-    "build": "css2scss ./index.css ./_converted.scss"
+    "build:body": "css2scss ./lib/body.css ./scss/_body.scss",
+    "build:heading": "css2scss ./lib/heading.css ./scss/_heading.scss",
+    "build:image": "css2scss ./lib/image.css ./scss/_image.scss",
+    "build:link": "css2scss ./lib/link.css ./scss/_link.scss",
+    "build:space": "css2scss ./lib/space.css ./scss/_space.scss",
+    "build": "npm run build:body && npm run build:heading && npm run build:image && npm run build:link && npm run build:space"
   },
   "devDependencies": {
     "sircus-process-css2scss": "^0.2.0"
