@@ -76,10 +76,10 @@ pre {
 img,
 svg {
   vertical-align: middle;
+  max-width: 100%;
+  height: auto;
 }
 
 img {
   display: inline-block;
-  max-width: 100%;
-  height: auto;
 }
