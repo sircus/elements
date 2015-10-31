@@ -3,6 +3,7 @@
   --link-color-hover: var(--g-primary-dark);
 }
 
+
 a {
   color: var(--link-color);
 }
