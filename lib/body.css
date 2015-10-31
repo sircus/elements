@@ -1,0 +1,11 @@
+:root {
+  --body-fontFamily: var(--g-fontFamily);
+  --body-fontSize: var(--g-fontSize);
+  --body-lineHeight: var(--g-lineHeight);
+}
+
+body {
+  font-family: var(--body-fontFamily);
+  font-size: var(--body-fontSize);
+  line-height: var(--body-lineHeight);
+}

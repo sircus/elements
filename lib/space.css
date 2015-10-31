@@ -1,0 +1,18 @@
+:root {
+  --elementsSpace-marginTop: 0;
+  --elementsSpace-marginBottom: var(--g-space);
+}
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+fieldset,
+figure,
+blockquote,
+pre {
+  margin-top: var(--elementsSpace-marginTop);
+  margin-bottom: var(--elementsSpace-marginBottom);
+}

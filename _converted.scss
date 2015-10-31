@@ -1,80 +1,8 @@
-$body-fontFamily: $g-fontFamily !default;
-$body-fontSize: $g-fontSize !default;
-$body-lineHeight: $g-lineHeight !default;
-$heading-weight: $g-fontWeight-bold !default;
-$heading-marginTop: 1em !default;
-$heading-marginBottom: .5em !default;
-$heading-lineHeight: 1.2 !default;
-$heading-fontSize-h1: $g-fontSize-hg !default;
-$heading-fontSize-h2: $g-fontSize-xl !default;
-$heading-fontSize-h3: $g-fontSize-lg !default;
-$heading-fontSize-h4: $g-fontSize-md !default;
-$heading-fontSize-h5: $g-fontSize-sm !default;
-$heading-fontSize-h6: $g-fontSize-xs !default;
-$link-color: $g-primary !default;
-$link-color-hover: $g-primary-dark !default;
-$elementsSpace-marginTop: 0 !default;
-$elementsSpace-marginBottom: $g-space !default;
-
 /*
  * sircus-elements
  ================================================== */
-body {
-  font-family: $body-fontFamily;
-  font-size: $body-fontSize;
-  line-height: $body-lineHeight;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: $heading-weight;
-  line-height: $heading-lineHeight;
-  margin-top: $heading-marginTop;
-  margin-bottom: $heading-marginBottom;
-}
-
-h1 { font-size: $heading-fontSize-h1; }
-h2 { font-size: $heading-fontSize-h2; }
-h3 { font-size: $heading-fontSize-h3; }
-h4 { font-size: $heading-fontSize-h4; }
-h5 { font-size: $heading-fontSize-h5; }
-h6 { font-size: $heading-fontSize-h6; }
-
-a {
-  color: $link-color;
-}
-
-a:hover,
-a:focus,
-a:active {
-  color: $link-color-hover;
-}
-
-p,
-ul,
-ol,
-dl,
-hr,
-table,
-fieldset,
-figure,
-blockquote,
-pre {
-  margin-top: $elementsSpace-marginTop;
-  margin-bottom: $elementsSpace-marginBottom;
-}
-
-img,
-svg {
-  vertical-align: middle;
-  max-width: 100%;
-  height: auto;
-}
-
-img {
-  display: inline-block;
-}
+@import "./scss/body.css";
+@import "./scss/heading.css";
+@import "./scss/image.css";
+@import "./scss/link.css";
+@import "./scss/space.css";

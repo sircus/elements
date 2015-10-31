@@ -1,0 +1,10 @@
+$body-fontFamily: $g-fontFamily !default;
+$body-fontSize: $g-fontSize !default;
+$body-lineHeight: $g-lineHeight !default;
+
+
+body {
+  font-family: $body-fontFamily;
+  font-size: $body-fontSize;
+  line-height: $body-lineHeight;
+}

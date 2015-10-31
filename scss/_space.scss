@@ -1,0 +1,17 @@
+$elementsSpace-marginTop: 0 !default;
+$elementsSpace-marginBottom: $g-space !default;
+
+
+p,
+ul,
+ol,
+dl,
+hr,
+table,
+fieldset,
+figure,
+blockquote,
+pre {
+  margin-top: $elementsSpace-marginTop;
+  margin-bottom: $elementsSpace-marginBottom;
+}
