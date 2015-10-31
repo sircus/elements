@@ -1,6 +1,6 @@
 {
   "name": "sircus-elements",
-  "description": "Module for Base Elements Styling.",
+  "description": "Module for Base Elements.",
   "version": "0.0.0",
   "homepage": "http://sircus.github.io",
   "keywords": [
@@ -17,7 +17,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/sircus/elements-body.git"
+    "url": "https://github.com/sircus/elements.git"
   },
   "scripts": {
     "build": "css2scss ./index.css ./_converted.scss"
