@@ -1,15 +1,18 @@
 :root {
   --link-color: var(--g-primary);
+  --link-decoration: none;
+  --link-decoration-hover: underline;
   --link-color-hover: var(--g-primary-dark);
 }
 
-
 a {
   color: var(--link-color);
+  text-decoration: var(--link-decoration);
 }
 
 a:hover,
 a:focus,
 a:active {
   color: var(--link-color-hover);
+  text-decoration: var(--link-decoration-hover);
 }

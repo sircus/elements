@@ -1,14 +1,18 @@
 $link-color: $g-primary !default;
+$link-decoration: none !default;
+$link-decoration-hover: underline !default;
 $link-color-hover: $g-primary-dark !default;
 
 
 
 a {
   color: $link-color;
+  text-decoration: $link-decoration;
 }
 
 a:hover,
 a:focus,
 a:active {
   color: $link-color-hover;
+  text-decoration: $link-decoration-hover;
 }
